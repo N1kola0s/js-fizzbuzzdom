@@ -1,0 +1,25 @@
+.numbers{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height: 100px;
+    width: 100px;
+    background-color: cornflowerblue;
+    color:black;
+    flex-wrap: wrap;
+
+}
+
+
+.bg_green{
+    background-color: greenyellow;
+}
+
+
+.bg_yellow{
+    background-color: yellow;
+}
+
+.bg_red{
+    background-color: red;
+}
