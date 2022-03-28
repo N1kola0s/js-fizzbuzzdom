@@ -3,43 +3,32 @@ let numb = document.getElementById("numbers");
 for (let i=1; i<=100; i++){
 console.log(i);
 
-let list = `<div class="numbers">${i}</div>`;
+if(i % 3 == 0){
 
-let three = i / 3 % 0;
-let five = i / 5 % 0;
-let fifteen = i / 15 % 0;
-
-let mult_three = `<div class="numbers bg_green">fizz</div>`;
-
-let mult_five = `<div class="numbers bg_yellow">buzz</div>`;
-
-let mult_fifteen = `<div class="numbers bg_red">fizzbuzz</div>`
-
-if(i = three){
+    let mult_three = `<div class="numb bg_green">fizz</div>`;
 
     numb.insertAdjacentHTML(`beforeend`, mult_three); 
     
-    
 }
 
-else if (i = five) {
+else if (i % 5 == 0) {
+
+    let mult_five = `<div class="numb bg_yellow">buzz</div>`;
 
     numb.insertAdjacentHTML(`beforeend`, mult_five); 
 
 } 
 
-else if (i = fifteen){
+else if (i % 15 == 0){
+    let mult_fifteen = `<div class="numb  bg_red">fizzbuzz</div>`
 
     numb.insertAdjacentHTML(`beforeend`, mult_fifteen); 
-
-    
-
 }
 
 else {
-
+    let list = `<div class="numb">${i}</div>`;
     numb.insertAdjacentHTML(`beforeend`, list);
-      
+
 }
 
 }
