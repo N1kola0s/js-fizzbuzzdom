@@ -1,15 +1,20 @@
+
 .numb{
     display:flex;
     justify-content:center;
     align-items:center;
     height: 100px;
-    width: 100px;
+    /* width: 100px; */
     background-color: cornflowerblue;
     color:black;
-    flex-wrap: wrap;
 
 }
 
+
+.col{
+    width: calc(100% / 9);
+    margin:1rem;
+}
 
 .bg_green{
     background-color: greenyellow;
