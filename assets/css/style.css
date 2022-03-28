@@ -1,11 +1,15 @@
 
+body{
+    background-color: #183A4A;
+}
+
 .numb{
     display:flex;
     justify-content:center;
     align-items:center;
-    height: 100px;
+    height: 150px;
     /* width: 100px; */
-    background-color: cornflowerblue;
+    background-color: #3D88AE;
     color:black;
 
 }
@@ -17,14 +21,14 @@
 }
 
 .bg_green{
-    background-color: greenyellow;
+    background-color: #61D2A4;
 }
 
 
 .bg_yellow{
-    background-color: yellow;
+    background-color: #F9D277;
 }
 
 .bg_red{
-    background-color: red;
+    background-color: #DE5471;
 }
